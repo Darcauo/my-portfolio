@@ -402,6 +402,82 @@ button {
   transform: scale(1.025);
 }
 
+.featured-project--secondary {
+  margin-top: clamp(3rem, 7vw, 6rem);
+}
+
+.portfolio-project-visual {
+  background: #111719;
+}
+
+.portfolio-preview {
+  min-height: clamp(280px, 40vw, 490px);
+  padding: clamp(1.1rem, 3vw, 2rem);
+  background:
+    radial-gradient(ellipse at 74% 70%, rgba(0, 255, 255, 0.12), transparent 38%),
+    #111719;
+  color: #f4f5f1;
+  transition: transform 400ms ease;
+}
+
+.portfolio-project-visual:hover .portfolio-preview {
+  transform: scale(1.025);
+}
+
+.portfolio-preview-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid rgba(140, 164, 172, 0.25);
+  color: #8ca4ac;
+  font-size: clamp(0.48rem, 0.85vw, 0.68rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.portfolio-preview-nav span:first-child {
+  color: var(--teal);
+}
+
+.portfolio-preview-content {
+  display: grid;
+  min-height: clamp(220px, 32vw, 385px);
+  align-content: center;
+  justify-items: start;
+  gap: 1rem;
+}
+
+.portfolio-preview-content > span {
+  color: var(--teal);
+  font-size: clamp(0.5rem, 0.9vw, 0.72rem);
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.portfolio-preview-content strong {
+  font-family: "ERODED PERSONAL USE", Impact, "Arial Narrow", sans-serif;
+  font-size: clamp(2.5rem, 6vw, 5.7rem);
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 0.83;
+}
+
+.portfolio-preview-content strong span {
+  color: var(--teal);
+}
+
+.portfolio-preview-content i {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--teal);
+  color: var(--teal);
+  font-size: 0.63rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
 .waila-preview-top {
   display: flex;
   align-items: center;
