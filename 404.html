@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#081318" />
+    <title>Page not found | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .not-found {
+        display: grid;
+        min-height: 100svh;
+        place-content: center;
+        justify-items: start;
+        padding: 2rem;
+      }
+
+      .not-found h1 {
+        margin: 0;
+        color: var(--teal);
+        font-family: "ERODED PERSONAL USE", Impact, "Arial Narrow", sans-serif;
+        font-size: clamp(4rem, 14vw, 9rem);
+        font-weight: 500;
+        line-height: 0.95;
+      }
+
+      .not-found p {
+        margin: 1rem 0 2rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="not-found">
+      <p class="section-kicker">404</p>
+      <h1>Page not found.</h1>
+      <p>The page you requested could not be found.</p>
+      <a class="contact-button" href="index.html">Back to portfolio <span aria-hidden="true">↗</span></a>
+    </main>
+  </body>
+</html>
